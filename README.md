@@ -9,7 +9,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipemjesus/happy-web?color=29B6D1">
 
-  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/2">
+  <a aria-label="Completed" href="https://nextlevelweek.com">
     <img src="https://img.shields.io/badge/happy-NLW 3.0-29B6D1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a>
   
@@ -28,7 +28,7 @@
 
 <div align="center">
   <p>
-  <img src="./.github/nlw2.svg" alt="Next Level Week #2" width="100"/>
+  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dd625bf9-cb75-466d-bef6-598ade8330ff/nlw.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201013T110138Z&X-Amz-Expires=86400&X-Amz-Signature=77171c08601205c9c517b80c64196518110bf1964678bc74e20cba79e2db173e&X-Amz-SignedHeaders=host" alt="Next Level Week #3" width="100"/>
   </p>
   <sub>The NLW #3 project. Built with ❤︎ by
     <a href="https://github.com/felipemjesus">Felipe Martins</a> and
