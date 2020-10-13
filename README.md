@@ -1,44 +1,97 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   <img src="./src/images/logo.svg" alt="Happy" width="280"/>
+</p>
 
-## Available Scripts
+<p align="center">	
+   <a href="https://www.linkedin.com/in/felipemjesus/">
+      <img alt="Felipe Martins" src="https://img.shields.io/badge/-FelipeMartins-29B6D1?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipemjesus/happy-web?color=29B6D1">
 
-### `yarn start`
+  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/2">
+    <img src="https://img.shields.io/badge/happy-NLW 3.0-29B6D1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
+  
+  <a href="https://github.com/felipemjesus/happy-web/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/felipemjesus/happy-web?color=29B6D1">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-29B6D1">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <a href="https://github.com/felipemjesus/happy-web/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/felipemjesus/happy-web?color=29B6D1&logo=github">
+  </a>
+</p>
 
-### `yarn test`
+> :rocket: Projeto feito para possibilitar visitas aos orfanatos, feito na Next Level Week #3 @Rocketseat
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align="center">
+  <p>
+  <img src="./.github/nlw2.svg" alt="Next Level Week #2" width="100"/>
+  </p>
+  <sub>The NLW #3 project. Built with ❤︎ by
+    <a href="https://github.com/felipemjesus">Felipe Martins</a> and
+    <a href="https://github.com/felipemjesus/happy-web/graphs/contributors">
+      contributors
+    </a>
+  </sub>
+</div>
 
-### `yarn build`
+# :pushpin: Tabela de Conteúdo
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Tecnologias](#computer-tecnologias)
+* [Funcionalidades](#rocket-funcionalidades)
+* [Como rodar](#construction_worker-como-rodar)
+* [Encontrou um bug? Ou está faltando uma feature?](#bug-problemas)
+* [Contribuindo](#tada-contribuindo)
+* [Licencia](#closed_book-licencia)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# 📥 Versões disponiveis do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Happy Web - [https://github.com/felipemjesus/happy-web](https://github.com/felipemjesus/happy-web)
+- Happy Mobile - [https://github.com/felipemjesus/happy-mobile](https://github.com/felipemjesus/happy-mobile)
+- Happy Api - [https://github.com/felipemjesus/happy-api](https://github.com/felipemjesus/happy-api)
 
-### `yarn eject`
+# :computer: Tecnologias
+Esse projeto foi feito utilizando as seguintes tecnologias:
+<ul>
+  <li><a href="https://reactjs.org/">React</a></li>
+  <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+</ul>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# :rocket: Funcionalidades
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Landing Page para apresentação
+* Mapa apresentando os orfanatos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# :construction_worker: Como rodar
+```bash
+# Clone o repositorio
+$ git clone https://github.com/felipemjesus/happy-web.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Instale as depedencias
+$ yarn
 
-## Learn More
+# Rode a aplicação
+$ yarn start
+```
+Acesse o site: http://localhost:3000/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# :bug: Problemas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Fique a vontade **para criar uma nova issue** com o respectivo titulo e descrição na página de issues do [Happy WEB](https://github.com/felipemjesus/happy-web/issues) Repositorio. Se você já encontrou a solução para o problema, **Eu amaria fazer o review do seu pull request**!
+
+# :tada: Contribuindo
+
+Confira a página de [contribuição](https://github.com/felipemjesus/happy-web/blob/master/CONTRIBUTING.md) para ver como começar uma discução e começar a contribuir.
+
+# :closed_book: Licencia
+
+Lançado em 2020 :closed_book: Licencia
+
+Feito por [Felipe Martins](https://github.com/felipemjesus) 🚀.
+Esse projeto esta sobre [MIT license](https://github.com/felipemjesus/happy-web/master/LICENSE).
+
+
+Dê uma ⭐️ se esse projeto te ajudou!
