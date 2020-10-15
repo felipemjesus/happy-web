@@ -48,22 +48,26 @@ export default function Orphanage() {
 
       <main>
         <div className="orphanage-details">
-          <img src={orphanage.images.length ? orphanage.images[activeImageIndex].url : 'https://www.gcd.com.br/wp-content/uploads/2020/08/safe_image.jpg'} alt={orphanage.name} />
+          {orphanage.images.length && (
+            <>
+              <img src={orphanage.images[activeImageIndex].url} alt={orphanage.name} />
 
-          <div className="images">
-            {orphanage.images.map((image, index) => {
-              return (
-                <button 
-                  key={image.id} 
-                  className={activeImageIndex === index ? 'active' : ''} 
-                  type="button" 
-                  onClick={() => setActiveImageIndex(index)}
-                >
-                  <img src={image.url} alt={orphanage.name} />
-                </button>
-              )
-            })}
-          </div>
+              <div className="images">
+                {orphanage.images.map((image, index) => {
+                  return (
+                    <button 
+                      key={image.id} 
+                      className={activeImageIndex === index ? 'active' : ''} 
+                      type="button" 
+                      onClick={() => setActiveImageIndex(index)}
+                    >
+                      <img src={image.url} alt={orphanage.name} />
+                    </button>
+                  )
+                })}
+              </div>
+            </>
+          )}
           
           <div className="orphanage-details-content">
             <h1>{orphanage.name}</h1>
